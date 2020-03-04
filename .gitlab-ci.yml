@@ -1,0 +1,13 @@
+image: node:9.4.0
+
+stages:
+    - build
+    - deploy
+    
+build:
+    stage: build
+    script:
+        - echo "Building deploy package"
+        - yarn install
+        - yarn build
+        - echo "Build successful"

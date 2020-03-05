@@ -1,6 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="819f5d1e-5629-4444-a086-04d5cf1b0a79" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/app/App.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app/App.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/terminal/Terminal.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/terminal/Terminal.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="CSS File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1YfTXDqaOD4voLrxSs2nQL2dxAK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Educational" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/app" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="819f5d1e-5629-4444-a086-04d5cf1b0a79" name="Default Changelist" comment="" />
+      <created>1583332686332</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583332686332</updated>
+      <workItem from="1583332688300" duration="2685000" />
+    </task>
+    <task id="LOCAL-00001" summary="chore(config): add intellij-files">
+      <created>1583332744678</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583332744678</updated>
+    </task>
+    <task id="LOCAL-00002" summary="chore(config): add intellij-files">
+      <created>1583332763161</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583332763161</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init(project): init react-app">
+      <created>1583332789654</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583332789654</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chore(config): add intellij-files" />
+    <MESSAGE value="init(project): init react-app" />
+    <option name="LAST_COMMIT_MESSAGE" value="init(project): init react-app" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="424" y="251" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583333359264">
+      <screen x="0" y="23" width="1920" height="1133" />
+    </state>
+    <state x="424" y="251" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1133@0.23.1920.1133" timestamp="1583333359264" />
+    <state x="591" y="186" key="CommitChangelistDialog2" timestamp="1583332789424">
+      <screen x="0" y="23" width="1920" height="1133" />
+    </state>
+    <state x="591" y="186" key="CommitChangelistDialog2/0.23.1920.1133@0.23.1920.1133" timestamp="1583332789424" />
+    <state x="469" y="228" key="SettingsEditor" timestamp="1583333394117">
+      <screen x="0" y="23" width="1920" height="1133" />
+    </state>
+    <state x="469" y="228" key="SettingsEditor/0.23.1920.1133@0.23.1920.1133" timestamp="1583333394117" />
   </component>
 </project>

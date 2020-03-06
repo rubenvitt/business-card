@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="819f5d1e-5629-4444-a086-04d5cf1b0a79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/Keyypress.hook.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/terminal/Terminal.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/terminal/Terminal.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/terminal/Terminal.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/terminal/Terminal.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/Keyypress.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/Keyypress.hook.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -56,7 +55,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RebelAgentSelection">
@@ -113,6 +112,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="init(project): init react-app" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="593" y="275" key="#Inspections" timestamp="1583514670975">
+      <screen x="0" y="23" width="1920" height="1133" />
+    </state>
+    <state x="593" y="275" key="#Inspections/0.23.1920.1133@0.23.1920.1133" timestamp="1583514670975" />
     <state x="424" y="251" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583333359264">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
@@ -121,9 +124,21 @@
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
     <state x="591" y="186" key="CommitChangelistDialog2/0.23.1920.1133@0.23.1920.1133" timestamp="1583332789424" />
-    <state x="469" y="228" key="SettingsEditor" timestamp="1583333394117">
+    <state x="192" y="125" key="MergeDialog" timestamp="1583514516020">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
-    <state x="469" y="228" key="SettingsEditor/0.23.1920.1133@0.23.1920.1133" timestamp="1583333394117" />
+    <state x="192" y="125" key="MergeDialog/0.23.1920.1133@0.23.1920.1133" timestamp="1583514516020" />
+    <state x="469" y="228" key="SettingsEditor" timestamp="1583514220454">
+      <screen x="0" y="23" width="1920" height="1133" />
+    </state>
+    <state x="469" y="228" key="SettingsEditor/0.23.1920.1133@0.23.1920.1133" timestamp="1583514220454" />
+    <state x="774" y="511" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583514499323">
+      <screen x="0" y="23" width="1920" height="1133" />
+    </state>
+    <state x="774" y="511" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1133@0.23.1920.1133" timestamp="1583514499323" />
+    <state x="624" y="277" width="670" height="676" key="search.everywhere.popup" timestamp="1583515451362">
+      <screen x="0" y="23" width="1920" height="1133" />
+    </state>
+    <state x="624" y="277" width="670" height="676" key="search.everywhere.popup/0.23.1920.1133@0.23.1920.1133" timestamp="1583515451362" />
   </component>
 </project>

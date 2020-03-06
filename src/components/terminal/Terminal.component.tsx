@@ -31,7 +31,7 @@ function Terminal() {
         setLine('');
     }
 
-    const key = useKeyPress(line, setLine, submitLine);
+    useKeyPress(line, setLine, submitLine);
 
     return (
         <div className={styles.terminal}>

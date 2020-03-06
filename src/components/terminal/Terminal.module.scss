@@ -1,7 +1,14 @@
 .terminal {
-    background: rgb(0, 128, 0);
-    width: 50vw;
-    height: 50vh;
-    padding: 30px;
-    font-family: "Source Code Pro", monospace;
+  background: rgb(0, 128, 0);
+  width: 50vw;
+  height: 50vh;
+  padding: 30px;
+  font-family: "Source Code Pro", monospace;
+}
+
+.history {
+  color: rgb(55, 55, 55);
+  width: 50vw;
+  height: 50vh;
+  overflow: scroll;
 }

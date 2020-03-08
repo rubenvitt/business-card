@@ -2,12 +2,27 @@ image: node:latest
 
 stages:
     - build
+    - test
+    - docker-build
     - deploy
-    
-build:
+
+yarn-build:
     stage: build
     script:
         - echo "Building deploy package"
         - yarn install
         - yarn build
         - echo "Build successful"
+
+yarn-test:
+    stage: test
+    script:
+        - echo "Tests not implemented"
+
+docker-dev-build:
+    stage: docker-build
+    tags:
+        - docker
+    script:
+        - cd docker/dev
+        - docker-compose build

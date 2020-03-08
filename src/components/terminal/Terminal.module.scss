@@ -1,14 +1,45 @@
+@import "src/style/Variables";
+
 .terminal {
-  background: rgb(0, 128, 0);
+  background: $terminalBackground;
   width: 50vw;
   height: 50vh;
   padding: 30px;
   font-family: "Source Code Pro", monospace;
+  color: $textColor;
 }
 
 .history {
-  color: rgb(55, 55, 55);
   width: 50vw;
   height: 50vh;
   overflow: scroll;
+
+
+  .lineUser {
+    &::before {
+      content: '> ';
+    }
+  }
+
+  .lineError {
+    color: $errorColor !important;
+
+    &::before {}
+  }
+
+  .lineApp, .lineError {
+    padding-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: lighten($textColor, 20);
+
+    a {
+      text-decoration: underline;
+      color: $linkColor;
+
+      &:visited {
+        color: darken($linkColor, 10);
+      }
+    }
+  }
 }

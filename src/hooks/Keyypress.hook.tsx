@@ -7,7 +7,6 @@ function useKeyPress(line: String, setLine: Function, submitLine: Function) {
     // If pressed key is our target key then set to true
 
     const downHandler = useCallback((event: any) => {
-            console.log('Key Down: ' + event.key);
             if (event.key.length === 1) {
                 setKeyPressed(event.key);
                 setLine(line + event.key);

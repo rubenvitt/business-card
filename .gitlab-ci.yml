@@ -25,4 +25,4 @@ docker-dev-build:
         - docker
     script:
         - cd docker/dev
-        - docker-compose build
+        - docker build -t dev-webapp .

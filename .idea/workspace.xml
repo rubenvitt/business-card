@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="819f5d1e-5629-4444-a086-04d5cf1b0a79" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/terminal/Terminal.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/terminal/Terminal.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/Keyypress.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/Keyypress.hook.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="819f5d1e-5629-4444-a086-04d5cf1b0a79" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583332789654</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix(react-warnings): fix some warnings">
+      <created>1583515667874</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583515667874</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,7 +111,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore(config): add intellij-files" />
     <MESSAGE value="init(project): init react-app" />
-    <option name="LAST_COMMIT_MESSAGE" value="init(project): init react-app" />
+    <MESSAGE value="fix(react-warnings): fix some warnings" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(react-warnings): fix some warnings" />
   </component>
   <component name="WindowStateProjectService">
     <state x="593" y="275" key="#Inspections" timestamp="1583514670975">
@@ -120,10 +123,10 @@
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
     <state x="424" y="251" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1133@0.23.1920.1133" timestamp="1583333359264" />
-    <state x="591" y="186" key="CommitChangelistDialog2" timestamp="1583332789424">
+    <state x="591" y="186" key="CommitChangelistDialog2" timestamp="1583515667438">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
-    <state x="591" y="186" key="CommitChangelistDialog2/0.23.1920.1133@0.23.1920.1133" timestamp="1583332789424" />
+    <state x="591" y="186" key="CommitChangelistDialog2/0.23.1920.1133@0.23.1920.1133" timestamp="1583515667438" />
     <state x="192" y="125" key="MergeDialog" timestamp="1583514516020">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
@@ -132,6 +135,10 @@
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
     <state x="469" y="228" key="SettingsEditor/0.23.1920.1133@0.23.1920.1133" timestamp="1583514220454" />
+    <state x="559" y="329" key="Vcs.Push.Dialog.v2" timestamp="1583515669871">
+      <screen x="0" y="23" width="1920" height="1133" />
+    </state>
+    <state x="559" y="329" key="Vcs.Push.Dialog.v2/0.23.1920.1133@0.23.1920.1133" timestamp="1583515669871" />
     <state x="774" y="511" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583514499323">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>

@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="819f5d1e-5629-4444-a086-04d5cf1b0a79" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/helpers/Hashcode.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/Variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/SystemStructure.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/App.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/App.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/terminal/Terminal.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/terminal/Terminal.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/terminal/Terminal.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/terminal/Terminal.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/Keyypress.hook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/Keyypress.hook.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +18,8 @@
       <list>
         <option value="CSS File" />
         <option value="TypeScript JSX File" />
-        <option value="TypeScript File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -88,7 +82,7 @@
       <updated>1583332686332</updated>
       <workItem from="1583332688300" duration="2685000" />
       <workItem from="1583394065816" duration="3218000" />
-      <workItem from="1583675144899" duration="5741000" />
+      <workItem from="1583675144899" duration="6337000" />
     </task>
     <task id="LOCAL-00001" summary="chore(config): add intellij-files">
       <created>1583332744678</created>
@@ -118,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583515667874</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat(frontend): many frontend implementations">
+      <created>1583680969855</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583680969855</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +129,8 @@
     <MESSAGE value="chore(config): add intellij-files" />
     <MESSAGE value="init(project): init react-app" />
     <MESSAGE value="fix(react-warnings): fix some warnings" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(react-warnings): fix some warnings" />
+    <MESSAGE value="feat(frontend): many frontend implementations" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(frontend): many frontend implementations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="593" y="275" key="#Inspections" timestamp="1583678132102">
@@ -139,14 +141,18 @@
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
     <state x="424" y="251" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1133@0.23.1920.1133" timestamp="1583676750526" />
+    <state x="773" y="312" key="#com.intellij.ide.util.MemberChooser" timestamp="1583681190163">
+      <screen x="0" y="23" width="1920" height="1133" />
+    </state>
+    <state x="773" y="312" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1133@0.23.1920.1133" timestamp="1583681190163" />
     <state x="723" y="307" key="#xdebugger.evaluate" timestamp="1583676850997">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
     <state x="723" y="307" key="#xdebugger.evaluate/0.23.1920.1133@0.23.1920.1133" timestamp="1583676850997" />
-    <state x="591" y="186" key="CommitChangelistDialog2" timestamp="1583515667438">
+    <state x="591" y="186" key="CommitChangelistDialog2" timestamp="1583680969487">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
-    <state x="591" y="186" key="CommitChangelistDialog2/0.23.1920.1133@0.23.1920.1133" timestamp="1583515667438" />
+    <state x="591" y="186" key="CommitChangelistDialog2/0.23.1920.1133@0.23.1920.1133" timestamp="1583680969487" />
     <state width="1878" height="388" key="GridCell.Tab.0.bottom" timestamp="1583677464829">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
@@ -203,10 +209,10 @@
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
     <state x="469" y="228" key="SettingsEditor/0.23.1920.1133@0.23.1920.1133" timestamp="1583514220454" />
-    <state x="559" y="329" key="Vcs.Push.Dialog.v2" timestamp="1583515669871">
+    <state x="559" y="329" key="Vcs.Push.Dialog.v2" timestamp="1583680971537">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
-    <state x="559" y="329" key="Vcs.Push.Dialog.v2/0.23.1920.1133@0.23.1920.1133" timestamp="1583515669871" />
+    <state x="559" y="329" key="Vcs.Push.Dialog.v2/0.23.1920.1133@0.23.1920.1133" timestamp="1583680971536" />
     <state x="774" y="511" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583514499323">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>

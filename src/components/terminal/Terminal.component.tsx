@@ -52,7 +52,8 @@ function Terminal() {
             addToHistory("- help: Show this information.");
             addToHistory("- ls: Show files available in the actual directory.");
             addToHistory("- cat: [usage: cat xxx.file] Show content of the specified file.");
-            addToHistory("- cd: change the actual directory");
+            addToHistory("- cd: change the actual directory.");
+            addToHistory('- clear: clear the complete console output.')
         }
 
         function error(message?: String) {
@@ -60,6 +61,7 @@ function Terminal() {
         }
 
         function ls(container: Container) {
+            addToHistory('Actual folder: ' + (container instanceof Root ? '/' : container.name));
             addToHistory(container.items.map(value => {
                 return `${value.name}\t`;
             }).join('\t'));
@@ -110,6 +112,8 @@ function Terminal() {
                 cd(getContainer(actualFolder, line.substring(3, line.length)));
             } else if (lowLine.startsWith("cat ")) {
                 cat(getFile(actualFolder, line.substring(4, line.length)));
+            } else if (lowLine === 'clear') {
+                setHistory('');
             } else if (lowLine === '') {
             } else {
                 error();

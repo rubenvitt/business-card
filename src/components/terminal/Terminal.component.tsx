@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import styles from './Terminal.module.scss';
 import useKeyPress from "../../hooks/Keyypress.hook";
 import {default as hashCode} from "../../helpers/Hashcode";
-import {Container, DefaultStructure, File, Folder, Item, Root} from "../../logic/SystemStructure";
+import {Container, DefaultStructure, File, Root} from "../../logic/SystemStructure";
 
 
 function convertTextToP(text: string) {

@@ -1,5 +1,5 @@
-class Root {
-    name: String = '/';
+class Root implements Container {
+    name: string = '';
     items: Item[];
 
     constructor(items: Item[]) {
@@ -7,11 +7,15 @@ class Root {
     }
 }
 
-interface Item {
+export interface Item {
     readonly name: String;
 }
 
-class Folder implements Item {
+export interface Container extends Item {
+    items: Item[];
+}
+
+class Folder implements Container {
     readonly name: String;
     items: Item[];
 
@@ -22,7 +26,7 @@ class Folder implements Item {
     }
 }
 
-class File implements Item{
+class File implements Item {
     readonly name: String;
     content: String;
 
@@ -32,6 +36,40 @@ class File implements Item{
     }
 }
 
+const cv = [
+    {
+        company: 'fme AG',
+        role: 'Associate Consultant',
+        start: '2019',
+        end: 'until now'
+    },
+    {
+        company: 'Dotsource',
+        role: 'Software Engineer',
+        start: '2019',
+        end: '2019'
+    }
+];
+
+function cvToString(): string {
+    let result = '';
+    cv.forEach(entry => {
+        result += `${entry.role} at ${entry.company} (${entry.start} - ${entry.end})\n`;
+    })
+
+    return result;
+}
+
+const DefaultStructure: Root = new Root(
+    [
+        new Folder("user", [
+            new Folder('cv', [
+                new File('work', cvToString())
+            ])
+        ])
+    ]
+);
+
 export {
-    Root, Folder, File
+    Root, Folder, File, DefaultStructure
 }

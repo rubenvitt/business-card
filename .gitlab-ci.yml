@@ -29,6 +29,8 @@ yarn-test:
         - echo "Tests not implemented"
 
 docker-dev-build:
+    only:
+        - manual
     image: docker:19.03.1-dind
     stage: docker-build
     tags:

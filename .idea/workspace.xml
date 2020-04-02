@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="819f5d1e-5629-4444-a086-04d5cf1b0a79" name="Default Changelist" comment="fix(gitlab-ci): add tls path">
+    <list default="true" id="819f5d1e-5629-4444-a086-04d5cf1b0a79" name="Default Changelist" comment="feat(gitlab-ci): add cache &amp; artifacts">
       <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -113,7 +113,7 @@
       <workItem from="1583940302632" duration="195000" />
       <workItem from="1585569239583" duration="9000" />
       <workItem from="1585574618908" duration="784000" />
-      <workItem from="1585853566171" duration="1413000" />
+      <workItem from="1585853566171" duration="1558000" />
     </task>
     <task id="LOCAL-00001" summary="chore(config): add intellij-files">
       <created>1583332744678</created>
@@ -213,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585855496562</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat(gitlab-ci): add cache &amp; artifacts">
+      <created>1585855687085</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1585855687085</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +251,8 @@
     <MESSAGE value="refactor(unused): remove unused elements, add workspace.xml to gitignore" />
     <MESSAGE value="fix(gitlab-ci): change docker-build using docker-image" />
     <MESSAGE value="fix(gitlab-ci): add tls path" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix(gitlab-ci): add tls path" />
+    <MESSAGE value="feat(gitlab-ci): add cache &amp; artifacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(gitlab-ci): add cache &amp; artifacts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="593" y="275" key="#Inspections" timestamp="1583881094229">
@@ -327,18 +335,18 @@
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
     <state x="469" y="228" key="SettingsEditor/0.23.1920.1133@0.23.1920.1133" timestamp="1583514220454" />
-    <state x="559" y="329" key="Vcs.Push.Dialog.v2" timestamp="1585855499132">
+    <state x="559" y="329" key="Vcs.Push.Dialog.v2" timestamp="1585855688699">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
-    <state x="559" y="329" key="Vcs.Push.Dialog.v2/0.23.1920.1133@0.23.1920.1133" timestamp="1585855499132" />
+    <state x="559" y="329" key="Vcs.Push.Dialog.v2/0.23.1920.1133@0.23.1920.1133" timestamp="1585855688699" />
     <state x="774" y="511" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585855019076">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
     <state x="774" y="511" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1133@0.23.1920.1133" timestamp="1585855019076" />
-    <state x="665" y="347" width="590" height="484" key="find.popup" timestamp="1583883361586">
+    <state x="665" y="347" width="590" height="484" key="find.popup" timestamp="1585855713796">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
-    <state x="665" y="347" width="590" height="484" key="find.popup/0.23.1920.1133@0.23.1920.1133" timestamp="1583883361586" />
+    <state x="665" y="347" width="590" height="484" key="find.popup/0.23.1920.1133@0.23.1920.1133" timestamp="1585855713796" />
     <state x="624" y="277" width="670" height="676" key="search.everywhere.popup" timestamp="1583515451362">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>

@@ -16,6 +16,12 @@ yarn-build:
         - yarn install
         - yarn build
         - echo "Build successful"
+    cache:
+        paths:
+            - node_modules
+    artifacts:
+        paths:
+            - build
 
 yarn-test:
     stage: test

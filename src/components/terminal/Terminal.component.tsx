@@ -1,27 +1,29 @@
-import React, {useState} from "react";
+import React, {useState, useRef, useEffect} from "react";
 import styles from './Terminal.module.scss';
 import useKeyPress from "../../hooks/Keyypress.hook";
 import {default as hashCode} from "../../helpers/Hashcode";
 import {Container, DefaultStructure, File, Root} from "../../logic/SystemStructure";
 
 
-function convertTextToP(text: string) {
+function convertTextToP(text: string, historyDivRef: React.MutableRefObject<null>) {
     if (text === '') {
         return null;
     }
     return (
-        <div key={hashCode(text)} className={styles.history}>
-            {text.split('\n').filter(value => value.length > 0).map((value, index) => {
-                if (value.startsWith('\t')) {
-                    return (<p className={value.startsWith('\t\t') ? styles.lineError : styles.lineApp}
-                               dangerouslySetInnerHTML={{__html: value}}/>);
-                } else {
-                    return (
-                        <p className={styles.lineUser} key={index}>{value}</p>
-                    );
-                }
-            })}
-        </div>
+        <>
+            <div ref={historyDivRef} id={'test-test'} key={hashCode(text)} className={styles.history}>
+                {text.split('\n').filter(value => value.length > 0).map((value, index) => {
+                    if (value.startsWith('\t')) {
+                        return (<p className={value.startsWith('\t\t') ? styles.lineError : styles.lineApp}
+                                   dangerouslySetInnerHTML={{__html: value}}/>);
+                    } else {
+                        return (
+                            <p className={styles.lineUser} key={index}>{value}</p>
+                        );
+                    }
+                })}
+            </div>
+        </>
     );
 }
 
@@ -31,6 +33,7 @@ function Terminal() {
     let [history, setHistory] = useState('');
     let [actualFolder, setActualFolder] = useState<Container>(DefaultStructure);
     let [callHistory, setCallHistory] = useState<Container[]>([]);
+    const historyDivRef = useRef(null);
 
     function addToHistory(text: String, user?: boolean) {
         setHistory(prevHistory => {
@@ -123,9 +126,17 @@ function Terminal() {
 
     useKeyPress(line, setLine, submitLine);
 
+    const scrollToRef = ({current}: any) => {
+        if (current) {
+            current.scrollTop = current.scrollHeight;
+        }
+    };
+
+    useEffect(() => scrollToRef(historyDivRef));
+
     return (
         <div className={styles.terminal}>
-            {convertTextToP(history)}
+            {convertTextToP(history, historyDivRef)}
             rubeen.dev> {line}
         </div>
     )

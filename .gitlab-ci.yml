@@ -1,8 +1,5 @@
 image: node:latest
 
-services:
-    - docker:19.03.1-dind
-
 stages:
     - build
     - test
@@ -23,6 +20,7 @@ yarn-test:
         - echo "Tests not implemented"
 
 docker-dev-build:
+    image: docker:19.03.1-dind
     stage: docker-build
     tags:
         - docker

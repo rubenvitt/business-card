@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="819f5d1e-5629-4444-a086-04d5cf1b0a79" name="Default Changelist" comment="">
+    <list default="true" id="819f5d1e-5629-4444-a086-04d5cf1b0a79" name="Default Changelist" comment="fix(gitlab-ci): change docker-build using docker-image">
       <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +113,7 @@
       <workItem from="1583940302632" duration="195000" />
       <workItem from="1585569239583" duration="9000" />
       <workItem from="1585574618908" duration="784000" />
-      <workItem from="1585853566171" duration="838000" />
+      <workItem from="1585853566171" duration="1267000" />
     </task>
     <task id="LOCAL-00001" summary="chore(config): add intellij-files">
       <created>1583332744678</created>
@@ -182,11 +199,29 @@
       <option name="project" value="LOCAL" />
       <updated>1583883804533</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fix(gitlab-ci): change docker-build using docker-image">
+      <created>1585855091578</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585855091578</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore(config): add intellij-files" />
@@ -200,7 +235,8 @@
     <MESSAGE value="feat(system-structure): use SystemStructure.ts to generate output&#10;&#10;change some methods to use it." />
     <MESSAGE value="feat(commands): add clear-command" />
     <MESSAGE value="refactor(unused): remove unused elements, add workspace.xml to gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor(unused): remove unused elements, add workspace.xml to gitignore" />
+    <MESSAGE value="fix(gitlab-ci): change docker-build using docker-image" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(gitlab-ci): change docker-build using docker-image" />
   </component>
   <component name="WindowStateProjectService">
     <state x="593" y="275" key="#Inspections" timestamp="1583881094229">
@@ -223,10 +259,10 @@
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
     <state x="723" y="307" key="#xdebugger.evaluate/0.23.1920.1133@0.23.1920.1133" timestamp="1583676850997" />
-    <state x="591" y="186" key="CommitChangelistDialog2" timestamp="1583883804338">
+    <state x="591" y="186" key="CommitChangelistDialog2" timestamp="1585855061186">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
-    <state x="591" y="186" key="CommitChangelistDialog2/0.23.1920.1133@0.23.1920.1133" timestamp="1583883804338" />
+    <state x="591" y="186" key="CommitChangelistDialog2/0.23.1920.1133@0.23.1920.1133" timestamp="1585855061186" />
     <state width="1878" height="388" key="GridCell.Tab.0.bottom" timestamp="1583883818543">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
@@ -283,10 +319,10 @@
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
     <state x="469" y="228" key="SettingsEditor/0.23.1920.1133@0.23.1920.1133" timestamp="1583514220454" />
-    <state x="559" y="329" key="Vcs.Push.Dialog.v2" timestamp="1583883806164">
+    <state x="559" y="329" key="Vcs.Push.Dialog.v2" timestamp="1585855102015">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
-    <state x="559" y="329" key="Vcs.Push.Dialog.v2/0.23.1920.1133@0.23.1920.1133" timestamp="1583883806164" />
+    <state x="559" y="329" key="Vcs.Push.Dialog.v2/0.23.1920.1133@0.23.1920.1133" timestamp="1585855102015" />
     <state x="774" y="511" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585855019076">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>

@@ -13,7 +13,7 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:gitlab" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
     <select />
@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="819f5d1e-5629-4444-a086-04d5cf1b0a79" name="Default Changelist" comment="feat(gitlab-ci): add cache &amp; artifacts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/terminal/Terminal.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/terminal/Terminal.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logic/SystemStructure.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/logic/SystemStructure.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,6 +243,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chore(config): add intellij-files" />
@@ -342,10 +343,10 @@
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
     <state x="469" y="228" key="SettingsEditor/0.23.1920.1133@0.23.1920.1133" timestamp="1583514220454" />
-    <state x="559" y="329" key="Vcs.Push.Dialog.v2" timestamp="1585855784421">
+    <state x="559" y="329" key="Vcs.Push.Dialog.v2" timestamp="1585857430184">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>
-    <state x="559" y="329" key="Vcs.Push.Dialog.v2/0.23.1920.1133@0.23.1920.1133" timestamp="1585855784421" />
+    <state x="559" y="329" key="Vcs.Push.Dialog.v2/0.23.1920.1133@0.23.1920.1133" timestamp="1585857430184" />
     <state x="774" y="511" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585855019076">
       <screen x="0" y="23" width="1920" height="1133" />
     </state>

@@ -40,14 +40,27 @@ const cv = [
     {
         company: 'fme AG',
         role: 'Associate Consultant',
-        start: '2019',
-        end: 'until now'
+        start: '2019', end: 'until now'
     },
     {
         company: 'Dotsource',
         role: 'Software Engineer',
-        start: '2019',
-        end: '2019'
+        start: '2019', end: '2019'
+    },
+    {
+        company: 'fme AG',
+        role: 'Working student',
+        start: '2018', end: '2019'
+    },
+    {
+        company: 'Elektrobit',
+        role: 'Working student',
+        start: '2017', end: '2018'
+    },
+    {
+        company: 'Ostfalia Suderburg',
+        role: 'Student',
+        start: '2015', end: '2016'
     }
 ];
 

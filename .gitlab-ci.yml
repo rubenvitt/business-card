@@ -36,7 +36,7 @@ docker-dev-build:
     tags:
         - docker
     script:
-        - cp docker/dev/Dockerfile ../../Dockerfile
+        - cp docker/dev/Dockerfile .
         - docker build --tag $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA --tag $CI_REGISTRY_IMAGE:latest .
         - docker push $CI_REGISTRY_IMAGE/dev:$CI_COMMIT_SHA
         - docker push $CI_REGISTRY_IMAGE/dev:latest
@@ -49,7 +49,7 @@ docker-prod-build:
     tags:
         - docker
     script:
-        - cp docker/prod/Dockerfile ../../Dockerfile
+        - cp docker/prod/Dockerfile .
         - docker build --tag $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA --tag $CI_REGISTRY_IMAGE:latest .
         - docker push $CI_REGISTRY_IMAGE/dev:$CI_COMMIT_SHA
         - docker push $CI_REGISTRY_IMAGE/dev:latest

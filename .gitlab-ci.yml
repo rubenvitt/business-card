@@ -9,9 +9,6 @@ stages:
     - docker-build
     - deploy
 
-before_script:
-  - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
-
 yarn-build:
     stage: build
     script:
@@ -33,6 +30,8 @@ yarn-test:
 
 docker-dev-build:
     image: docker:19.03.1-dind
+    before_script:
+        - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
     stage: docker-build
     tags:
         - docker
@@ -44,6 +43,8 @@ docker-dev-build:
 
 docker-dev-build:
     image: docker:19.03.1-dind
+    before_script:
+        - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
     stage: docker-build
     tags:
         - docker
